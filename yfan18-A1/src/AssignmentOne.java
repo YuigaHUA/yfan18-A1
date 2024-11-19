@@ -9,5 +9,11 @@ public class AssignmentOne {
         gp1.printDetails();
         System.out.println("\nSurgeon Details:");
         surgeon1.printDetails();
+
+        // Creating an appointment
+        System.out.println("\nCreating an appointment:");
+        Appointment appointment1 = new Appointment("Zhang Wei", "123456789", "10:00 AM", gp1);
+        appointment1.printDetails();
+        appointment1.confirmAppointment();
     }
 }
