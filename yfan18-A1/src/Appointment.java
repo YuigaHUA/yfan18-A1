@@ -48,4 +48,3 @@ public class Appointment {
     public String getMobilePhone() {
         return mobilePhone;
     }
-}
